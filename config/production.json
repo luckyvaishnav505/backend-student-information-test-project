@@ -1,0 +1,25 @@
+{
+    "serverPort" : 80,
+    "mongoDb" : {
+        "port" : 27017,
+        "dbname" : "MyNodeApp"
+    },
+    "logger" : {
+        "type" : "console",
+        "level" : "debug"
+    },
+    "token" : {
+        "audience" : "node-boiler",
+        "secret" : "my-secrete",
+        "issuer" : "NodeBoilerPlate"
+    },
+    "saltRounds" : 10,
+    "mailer" : {
+        "host" : "smtp.gmail.com",
+        "port" : 587,
+        "secureSSL" : false,
+        "username" : "swapnil.nakhate@yopmail.com",
+        "password" : "Pa$$w0rd"
+    },
+    "adminMailId" : "developer@yopmail.com"
+}
